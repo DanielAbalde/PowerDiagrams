@@ -410,7 +410,7 @@ namespace SuperDelaunay
                 }
             }
 
-            //IncludeNeighbors();
+            IncludeNeighbors();
             RemoveSelfIntersecting();
             GetBiggestGroup();
 

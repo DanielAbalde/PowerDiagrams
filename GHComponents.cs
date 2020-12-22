@@ -386,13 +386,15 @@ namespace SuperDelaunay.GH
                 }
             }
 
-            var delaunayOutput = Params.Output.Find(p => p.Name == "Delaunay");
+            var delaunayOutput = Params.Output.Find(p => p.Name == "Delaunay") as Param_GenericObject;
             var graphOutput = Params.Output.Count > 1 ? Params.Output[1] : null;
             var topologyOutput = Params.Output.Count > 2 ? Params.Output[2] : null;
             var additionalOutput = Params.Output.Count > 3 ? Params.Output[3] : null;
 
             if (delaunayOutput == null)
                 Params.RegisterOutputParam(CreateDelaunayOutput(), 0);
+            else
+                delaunayOutput.Hidden = true;
 
             if (graphOutput == null)
             {

@@ -62,7 +62,12 @@ The project is open to implement any other algorithm that can be built with the 
 
                      
 #### Installation
-
+0) Download the last release of *SuperDelaunay.gha* from [here](https://github.com/DanielAbalde/Super-Delaunay/releases/tag/Beta).
+1) Unzip file.
+2) Make sure *SuperDelaunay.gha* is <ins>unlocked</ins>, right click > Properties > Unlock (if visible).
+3) Copy and paste it in the Grasshopper Libraries folder, usually: C:\Users\\<YourUser\>\AppData\Roaming\Grasshopper\Libraries.
+4) Restart Rhinoceros and Grasshopper.
+5) Component is located at *Mesh* Tab > *Triangulation* panel.
 
 #### Usage
 The component returns the Delaunay2d type that can be reused (to insert points or to extract some graph) 
@@ -130,7 +135,7 @@ We are not responsible for possible addiction caused by the weighted voronoi.
           
 <p align="center">
     <img align="center" src="Resources/voronoioverdose.jpg" alt="OverdoseImg" />
-    <p align="center" text-align="center" font-size="2px">Window capture of Grasshopper® <br> that appears when you use the native Voronoi component "too many" times.</p>
+    <p align="center" style="font-size: 10px;">Window capture of Grasshopper® <br> that appears when you use the native Voronoi component "too many" times.</p>
 </p>                                  
 
  
