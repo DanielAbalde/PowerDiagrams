@@ -108,6 +108,12 @@ Please feel free to forge this project and share your improvements.
 Using Visual Studio in Debug Mode, the GH component allows to open a debugger form (via double click on component)
 to facilitate the analysis, you will need to uncomment all the StartTimer() and EndTimer() in the Delaunay2d.cs file to include the speed tests. 
 
+#### Discussion
+Please don't contact me by email (I stopped using it years ago) for issues related to this project,
+ instead use github [here](https://github.com/DanielAbalde/Super-Delaunay/issues) for bugs 
+and [here](https://github.com/DanielAbalde/Super-Delaunay/discussions) for everything else.
+
+
 #### License
 
 This project is free software: you can redistribute it and/or modify
