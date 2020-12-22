@@ -1,7 +1,7 @@
 <h1 align="center"> Super Delaunay </h1>
-
-<p align="center"> <img align="center" border="1px" src="Resources/Spiral.gif" alt="Gif"></p>
 <p align="center"> Weighted Delaunay/Voronoi for Grasshopper</p>
+<p align="center"> <img align="center" border="1px" src="Resources/Spiral.gif" alt="Gif"></p>
+
 
 
 #### Motivation 
