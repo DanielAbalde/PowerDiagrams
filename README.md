@@ -1,5 +1,5 @@
 <h1 align="center"> Super Delaunay </h1>
-<p align="center"> Weighted Delaunay/Voronoi for Grasshopper</p>
+<p align="center"> Weighted Voronoi / Power Diagrams for Grasshopper</p>
 <p align="center"> <img align="center" border="1px" src="Resources/Spiral.gif" alt="Gif"></p>
 
 
@@ -141,7 +141,7 @@ We are not responsible for possible addiction caused by the weighted voronoi.
           
 <p align="center">
     <img align="center" src="Resources/voronoioverdose.jpg" alt="OverdoseImg" />
-    <p align="center" style="font-size: 10px;">Window capture of Grasshopper® <br> that appears when you use the native Voronoi component "too many" times.</p>
+    <p align="center" style="font-size: 10px;">Window capture of GrasshopperÂ® <br> that appears when you use the native Voronoi component "too many" times.</p>
 </p>                                  
 
  
